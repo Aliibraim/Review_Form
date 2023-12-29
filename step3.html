@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+    <style>
+      
+      h1{
+        text-align: center;
+      }
+        fieldset{
+            width: 50%;
+            padding: 40px;
+            margin: auto;
+        }
+        legend{
+            font-size: 22px;
+        }
+        label{
+            font-size: 20px;
+        }
+      
+        img{
+            width: 150px;
+        }
+        select{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Step 3: Your Review</h1>
+    <br />
+    <fieldset>
+        <legend>Your Review</legend>
+        <form action="#">
+    
+        <label for="hear">How did you hear about us?</label> 
+        <select name="hear" id="hear">
+            <option value="">Select your option</option>
+            <option value="facebook">Facebook</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="Instagram">Instagram</option>
+        </select>
+        <br />
+        <br />
+        <label for="">Would you visit agian?</label> <br />
+       <label for="yes">Yes</label><input type="radio" name="visit again" id="yes" value="yes">
+       <label for="no">No</label><input type="radio" name="visit again" id="no" value="no">
+       <label for="maybe">Maybe</label><input type="radio" name="visit again" id="maybe" value="maybe">
+       
+        <br />
+        <br />
+        <label for="comment">Comments:</label> <br />
+        <textarea name="comment" id="comment" cols="72" rows="5">Enter your comments here...</textarea>
+        <br />
+        <br />
+
+        <label for="file">Documents:</label> <br />
+        <input type="file"  name="file" id="file">
+        <br />
+        <br />
+        <input type="checkbox" id="check"><label for="check">Sign me up for email updates</label> <br /> <br />
+        <a href="./step2.html"><img src="./assets/back.png" alt="back"></a>
+        <a href=""><img src="./assets/submit.png" alt="next"></a>
+    </form>
+</fieldset>
+
+</body>
+</html>
